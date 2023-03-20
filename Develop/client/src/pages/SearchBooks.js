@@ -8,7 +8,8 @@ import {
   Row
 } from 'react-bootstrap';
 
-import { useMutation } from '@apollo/client';
+import { useMutation } from '@apollo/react-hooks';
+
 
 import { SAVE_BOOK } from '../utils/mutations';
 
